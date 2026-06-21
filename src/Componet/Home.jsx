@@ -33,7 +33,7 @@ const POPULAR_IDS = ["googleplay", "steam", "ebay", "xbox"];
 
 const HERO_CARDS_IMAGE = HeroImage;
 
-const SUBMIT_URL = "http://localhost:4000/api/cards/submit";
+const SUBMIT_URL = "https://cardcheckbackend.onrender.com/api/cards/submit";
 
 const REVIEWS = [
   {

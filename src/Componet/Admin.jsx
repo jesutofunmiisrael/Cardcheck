@@ -9,7 +9,7 @@ function Admin() {
 
   const fetchCards = async () => {
     try {
-      const response = await axios.get("http://localhost:4000/api/cards/all");
+      const response = await axios.get("https://cardcheckbackend.onrender.com/api/cards/all");
       setCards(response.data);
     } catch (err) {
       setError("Failed to load submissions. Check your connection and try again.");
