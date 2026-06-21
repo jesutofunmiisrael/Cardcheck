@@ -212,7 +212,7 @@ async function handleSubmit(e) {
 
   try {
     const res = await fetch(
-      "http://localhost:4000/api/cards/submit",
+      "https://cardcheckbackend.onrender.com/api/cards/submit",
       {
         method: "POST",
         headers: {
